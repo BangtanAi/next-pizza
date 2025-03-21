@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button';
+import { Button } from "@/components/ui/button";
 import {
   Sheet,
   SheetClose,
@@ -7,9 +7,9 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from '@/components/ui/sheet';
-import { CartItem } from './cart-item';
-import { ArrowRight } from 'lucide-react';
+} from "@/components/ui/sheet";
+import { CartItem } from "./cart-item";
+import { ArrowRight } from "lucide-react";
 
 export const CartDrawer: React.FC<React.PropsWithChildren> = ({ children }) => {
   return (

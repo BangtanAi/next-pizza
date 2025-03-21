@@ -70,8 +70,98 @@ export default function Home() {
           </div>
           <div className="flex-1">
             <div className="flex flex-col gap-16">
-              <ProductsGroupList title="Пиццы" items={[1, 2, 3, 4, 5]} />
-              <ProductsGroupList title="Комбо" items={[1, 2, 3, 4, 5]} />
+              <ProductsGroupList
+                categoryId={1}
+                title="Пиццы"
+                items={[
+                  {
+                    id: 1,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://media.dodostatic.net/image/r:292x292/11EE7D610BBEB562BD4D48786AD87270.webp",
+                    price: 500,
+                    items: [{ price: 500 }],
+                  },
+                  {
+                    id: 2,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://media.dodostatic.net/image/r:292x292/11EE7D610BBEB562BD4D48786AD87270.webp",
+                    price: 500,
+                    items: [{ price: 500 }],
+                  },
+                  {
+                    id: 3,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://media.dodostatic.net/image/r:292x292/11EE7D610BBEB562BD4D48786AD87270.webp",
+                    price: 500,
+                    items: [{ price: 500 }],
+                  },
+                  {
+                    id: 4,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://media.dodostatic.net/image/r:292x292/11EE7D610BBEB562BD4D48786AD87270.webp",
+                    price: 500,
+                    items: [{ price: 500 }],
+                  },
+                  {
+                    id: 5,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://media.dodostatic.net/image/r:292x292/11EE7D610BBEB562BD4D48786AD87270.webp",
+                    price: 500,
+                    items: [{ price: 500 }],
+                  },
+                ]}
+              />
+              <ProductsGroupList
+                categoryId={2}
+                title="Комбо"
+                items={[
+                  {
+                    id: 1,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://media.dodostatic.net/image/r:292x292/11EE7D610BBEB562BD4D48786AD87270.webp",
+                    price: 500,
+                    items: [{ price: 500 }],
+                  },
+                  {
+                    id: 2,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://media.dodostatic.net/image/r:292x292/11EE7D610BBEB562BD4D48786AD87270.webp",
+                    price: 500,
+                    items: [{ price: 500 }],
+                  },
+                  {
+                    id: 3,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://media.dodostatic.net/image/r:292x292/11EE7D610BBEB562BD4D48786AD87270.webp",
+                    price: 500,
+                    items: [{ price: 500 }],
+                  },
+                  {
+                    id: 4,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://media.dodostatic.net/image/r:292x292/11EE7D610BBEB562BD4D48786AD87270.webp",
+                    price: 500,
+                    items: [{ price: 500 }],
+                  },
+                  {
+                    id: 5,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://media.dodostatic.net/image/r:292x292/11EE7D610BBEB562BD4D48786AD87270.webp",
+                    price: 500,
+                    items: [{ price: 500 }],
+                  },
+                ]}
+              />
             </div>
 
             <div className="flex items-center gap-6 mt-12">
